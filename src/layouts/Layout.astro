@@ -1,0 +1,45 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+<style>
+ .slogan{
+    margin: '0 auto';
+    backgroundColor: '#f4f4f4'; 
+    padding: '1em 1.5em';
+    letterSpacing: '0.5px';
+    textAlign: 'center'; 
+    fontWeight: '300';
+    fontSize: '1.15rem';
+    lineHeight: '1.6em';
+    marginBottom: '1em';
+ }
+
+ main{
+    margin: '0 auto';
+    maxWidth: 960;
+    padding: '0 1.0875rem 1.45rem';
+ }
+</style>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Header />
+        <div class="slogan">
+            Summerside Community Choir is the longest-running community choir on PEI!
+        </div>  
+        <main>
+          <slot />
+        </main>
+        <Footer/>
+	</body>
+</html>
+
+
