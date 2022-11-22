@@ -7,7 +7,7 @@ date: 2019-04-14
 layout: ../../layouts/BlogPostLayout.astro
 
 ---
-![](../images/20190414_IMG_3145_fullstage.jpg "Panoramic shot of the entire massed choir and orchestra on stage during concert")
+![](/images/20190414_IMG_3145_fullstage.jpg "Panoramic shot of the entire massed choir and orchestra on stage during concert")
 
 75 instrumentalists and 75 choristers combined forces on the weekend for a spectacular performance!
 
@@ -19,18 +19,18 @@ Thank you to Maestro Mark Shapiro, choral directors Dr. Margot Rejskind, Kelsea 
 
 [Facebook Event Page](https://www.facebook.com/events/2369100906441838/)
 
-![Concert programme for "The World of Mahler 3"](../images/20190414_185314.jpg)
+![Concert programme for "The World of Mahler 3"](/images/20190414_185314.jpg)
 
-![In full chorus rehearsal with Maestro Mark Shapiro](../images/20190411_211435.jpg)
+![In full chorus rehearsal with Maestro Mark Shapiro](/images/20190411_211435.jpg)
 
-![The Summerside Choir Alto 2's in UPEI recital hall rehearsal.](../images/20190411_205754.jpg)
+![The Summerside Choir Alto 2's in UPEI recital hall rehearsal.](/images/20190411_205754.jpg)
 
-![Standing outside the door labelled "Stage Door Entrance" for performers!](../images/20190413_151200.jpg)
+![Standing outside the door labelled "Stage Door Entrance" for performers!](/images/20190413_151200.jpg)
 
-![Arriving at Confederation Centre in "civilian" clothes.](../images/20190415_000000.jpg)
+![Arriving at Confederation Centre in "civilian" clothes.](/images/20190415_000000.jpg)
 
-![Some Summerside choir sopranos sitting in the audience seats, watching the orchestra rehearsal](../images/20190414_141555.jpg)
+![Some Summerside choir sopranos sitting in the audience seats, watching the orchestra rehearsal](/images/20190414_141555.jpg)
 
-![Backstage, getting ready to walk on!](../images/20190414_000000.jpg)
+![Backstage, getting ready to walk on!](/images/20190414_000000.jpg)
 
-![We even picked up a new soprano along the way...  ;)](../images/20190414_132717.jpg) 
+![We even picked up a new soprano along the way...  ;)](/images/20190414_132717.jpg) 

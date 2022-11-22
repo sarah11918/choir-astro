@@ -5,7 +5,7 @@ sub_heading: Choir in the time of COVID-19
 date: 2020-03-26 
 layout: ../../layouts/BlogPostLayout.astro
 ---
-![](../images/20200324_212657.png "A laptop showing a Zoom call gallery of choir members wearing headphones, participating in an online rehearsal")
+![](/images/20200324_212657.png "A laptop showing a Zoom call gallery of choir members wearing headphones, participating in an online rehearsal")
 
 Here's the story, of a lovely choir....
 

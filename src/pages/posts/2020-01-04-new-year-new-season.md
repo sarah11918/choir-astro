@@ -3,7 +3,7 @@ title: New Year, New Season!
 date: 2020-01-04
 layout: ../../layouts/BlogPostLayout.astro
 ---
-![](../images/20190115_202118.jpg "Choir during rehearsal, sitting in chairs with music")
+![](/images/20190115_202118.jpg "Choir during rehearsal, sitting in chairs with music")
 
 Are you ready for a new year of music in Summerside?
 

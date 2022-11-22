@@ -3,7 +3,7 @@ title: 2022 Plans on Hold
 date: 2022-01-10 
 layout: ../../layouts/BlogPostLayout.astro
 ---
-![Summerside Community Choir in rehearsal, 2013](../images/2013rehearsal.JPG "Summerside Community Choir in rehearsal, 2013")
+![Summerside Community Choir in rehearsal, 2013](/images/2013rehearsal.JPG "Summerside Community Choir in rehearsal, 2013")
 
 New year, new... delayed start??
 

@@ -6,7 +6,7 @@ sub_heading: A handful of our singers joined in this collaborative tour around t
 date: 2019-08-18
 layout: ../../layouts/BlogPostLayout.astro
 ---
-![](../images/20190817_074651.jpg "Panoramic image of the choir and instruments on stage during performance, being conducted")
+![](/images/20190817_074651.jpg "Panoramic image of the choir and instruments on stage during performance, being conducted")
 
 The Monadnock Community Chorus from Peterborough, New Hampshire, celebrated their 60th anniversary with a collaborative concert tour of the Maritimes, involving local musicians at every stop, and hitting Charlottetown PEI on Friday August 16.
 

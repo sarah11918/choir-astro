@@ -6,7 +6,7 @@ layout: ../../layouts/BlogPostLayout.astro
 ---
 
 
-![music hoodie](../images/musichoodie.png "Keeping musically warm")
+![music hoodie](/images/musichoodie.png "Keeping musically warm")
 
 No news is... no news.
 
