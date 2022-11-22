@@ -5,27 +5,7 @@ import Footer from "../components/Footer.astro";
 
 const {pageTitle} = Astro.props
 ---
-<style>
- .slogan{
-    margin: 0 auto;
-    background-color: #f4f4f4; 
-    padding: 1em 1.5em;
-    letter-spacing: 0.5px;
-    text-align: center; 
-    font-weight: 300;
-    font-size: 1.15rem;
-    line-height: 1.6em;
-    margin-bottom: 1em;
- }
 
- main{
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 0 1.0875rem 1.45rem;
- }
-
- 
-</style>
 
 <html lang="en">
 	<head>
@@ -36,6 +16,27 @@ const {pageTitle} = Astro.props
 		<title>{pageTitle} | Summerside Choir</title>
 	</head>
 	<body>
+      <style>
+         .slogan{
+            margin: 0 auto;
+            background-color: #f4f4f4; 
+            padding: 1em 1.5em;
+            letter-spacing: 0.5px;
+            text-align: center; 
+            font-weight: 300;
+            font-size: 1.15rem;
+            line-height: 1.6em;
+            margin-bottom: 1em;
+         }
+        
+         main{
+            margin: 0 auto;
+            max-width: 960px;
+            padding: 0 1.0875rem 1.45rem;
+         }
+        
+         
+        </style>
 		<Header/>
         <div class="slogan">
             Summerside Community Choir is the longest-running community choir on PEI!
