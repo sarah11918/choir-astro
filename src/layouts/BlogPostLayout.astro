@@ -3,7 +3,7 @@ import Layout from './Layout.astro';
 const {frontmatter} = Astro.props
 const postDate = new Date(frontmatter.date).toDateString()
 ---
-<Layout>
+<Layout pageTitle={frontmatter.title}>
     <h1>{frontmatter.title}</h1>
       <span>
       {postDate}
