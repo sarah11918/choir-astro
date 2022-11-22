@@ -1,8 +1,44 @@
 ---
 import Layout from '../layouts/Layout.astro';
----
 
+let allPosts = await Astro.glob('../pages/posts/*.md');
+let myPosts = allPosts.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
+let sortedPosts = myPosts.slice(0,3)
+---
+<style>
+  .news {
+	padding-left: 1.5rem; 
+  }
+
+  @media (min-width: 770px) {
+    .container {
+		display:flex;
+	}
+	.poster {
+	  max-width: 400px;
+	}
+  }
+</style>
 <Layout pageTitle="Home">
 	<img src="/images/2019choirFUN.jpg" alt="SCC fun pose">
-	<p>HOME PAGE CONTENT HERE</p>
+	<div class="container">
+		<img class="poster" src="/images/2022.png" alt="Christmas Concert poster: Song for a Winter's Night, Sunday December 18 at 2pm, Trinity United Chuch, Summerside.">
+	<div class="news">
+		<h3>Recent News</h3>
+		{sortedPosts.map((post) => {
+		  return (
+		  <article>
+			<a href={post.url} class="summary-title"><h4>{post.frontmatter.title}</h4></a>
+			<p>{post.frontmatter.description}</p>
+			<p style={{marginTop: `.75em`}}>{post.frontmatter.exerpt}</p>
+			<p>{new Date(post.frontmatter.date).toDateString()}</p>
+			<div style={{paddingBottom: `.75em`, marginBottom: `0.75em`, fontSize: `smaller`, fontStyle: `italic`}}>
+				  <a href={post.url}> READ MORE </a>
+				  <hr style={{paddingBottom: `0.25em`, marginTop: `0.25em`}} />
+			</div>
+		  </article>
+		)})}
+		<a href="/blog/"><p>See more news...</p></a>
+	  </div>
+	</div>
 </Layout>

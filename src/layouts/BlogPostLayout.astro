@@ -1,0 +1,14 @@
+---
+import Layout from './Layout.astro';
+const {frontmatter} = Astro.props
+const postDate = new Date(frontmatter.date).toDateString()
+---
+<Layout>
+    <h1>{frontmatter.title}</h1>
+      <span>
+      {postDate}
+      </span>
+    <hr />
+    <slot />
+    <a href="/blog/">{`<<`} Back to all news</a>
+</Layout>
