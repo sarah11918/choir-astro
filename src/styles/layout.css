@@ -165,7 +165,7 @@ html {
     border: none;
     height: 1px;
   }
-  button,
+  /* button,
   input,
   optgroup,
   select,
@@ -259,7 +259,7 @@ html {
   }
   *:after {
     box-sizing: inherit;
-  }
+  } */
   h2 {
     margin-left: 0;
     margin-right: 0;
