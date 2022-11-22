@@ -2,6 +2,7 @@
 title: It's getting close...
 date: 2019-06-04
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: It's full dress rehearsal (if your dress includes a yellow rain hat, that is!)
 ---
 ![](/images/20190604_193607.jpg "Ken in his yellow rain hat to perform his role in one of our songs")
 

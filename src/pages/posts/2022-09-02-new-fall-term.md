@@ -2,6 +2,7 @@
 title: Did someone say September 13??
 date: 2022-09-02 
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: We are looking forward to welcoming members back to rehearsal on Tuesday, September 13! It's been a while, so forgive us if we're a little rusty at this...
 ---
 We are looking forward to welcoming members back to rehearsal on Tuesday, September 13! It's been a while, so forgive us if we're a little rusty at this...
 

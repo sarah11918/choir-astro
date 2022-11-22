@@ -4,6 +4,7 @@ title: Thanks for another great season!
 sub_heading: We hope you enjoyed our spring concert as much as we did.
 date: 2019-06-09
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: It's a wrap! Thank you to our amazing audience...
 ---
 ![](/images/2019choirFUN.jpg "The choir's FUN pose, in full concert dress, on stage during dress rehearsal")
 

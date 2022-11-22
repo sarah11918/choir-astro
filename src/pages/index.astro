@@ -30,7 +30,6 @@ let sortedPosts = myPosts.slice(0,3)
 		  <article>
 			<a href={post.url} class="summary-title"><h4>{post.frontmatter.title}</h4></a>
 			<p>{post.frontmatter.description}</p>
-			<p style={{marginTop: `.75em`}}>{post.frontmatter.exerpt}</p>
 			<p>{new Date(post.frontmatter.date).toDateString()}</p>
 			<div style={{paddingBottom: `.75em`, marginBottom: `0.75em`, fontSize: `smaller`, fontStyle: `italic`}}>
 				  <a href={post.url}> READ MORE </a>

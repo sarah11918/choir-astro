@@ -3,6 +3,7 @@
 title: Happy Valentine's Day!
 date: 2019-02-12
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: It's no fun if you don't stop and take time to smell the sugar cookies
 ---
 ![Table with a Valentine's Day spread of treats.](/images/20190212_184944.jpg)
 

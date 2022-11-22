@@ -5,7 +5,7 @@ sub_heading: 150 musicians perform the Canadian premiere of Yoon Jae Lee's orche
   reduction of Mahler's 3rd
 date: 2019-04-14
 layout: ../../layouts/BlogPostLayout.astro
-
+exerpt: 75 instrumentalists and 75 choristers combined forces on the weekend for a spectacular performance!
 ---
 ![](/images/20190414_IMG_3145_fullstage.jpg "Panoramic shot of the entire massed choir and orchestra on stage during concert")
 

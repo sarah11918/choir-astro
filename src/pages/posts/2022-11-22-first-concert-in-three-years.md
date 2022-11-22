@@ -2,6 +2,7 @@
 title: Our first concert in three years!
 date: 2022-11-22
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: Please join us for our first Christmas concert since 2019!
 ---
 ![](/images/concertposterchristmas2022.jpg "Song for a Winter's Night concert poster")
 

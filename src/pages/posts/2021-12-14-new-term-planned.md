@@ -3,6 +3,7 @@
 title: New term planned!
 date: 2021-12-14
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: It's yet another Tuesday we haven't been making music, but... there's a plan!
 ---
 ![New Season Starting banner - January 11, 2022](/images/newseasonstarting.png "New Season Starting!")
 

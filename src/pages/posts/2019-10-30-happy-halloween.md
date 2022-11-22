@@ -3,6 +3,7 @@
 title: Happy Halloween!
 date: 2019-10-30 
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: Our social committee prepared a spooktacular spread this week! Many of our members got into the spirit and donned costumes for our rehearsal. 
 ---
   
 ![Table of Halloween Goodies... a Spooktacular Spread!](/images/20191029_203628.jpg)

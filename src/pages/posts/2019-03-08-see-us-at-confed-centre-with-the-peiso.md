@@ -2,6 +2,7 @@
 title: See us at Confed Centre with the PEISO!
 date: 2019-03-08 
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: The women of Summerside Community Choir are excited to be a part of this choral-orchestral extravaganza with the PEI Symphony Orchestra and several other island choral ensembles!
 ---
 ![](/images/20190308_mahlerbanner.jpg "Banner promoting the concert at Confederation centre, showing the orchestra in concert and Mark Shapiro directing")
 

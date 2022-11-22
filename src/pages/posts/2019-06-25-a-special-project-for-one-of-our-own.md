@@ -4,6 +4,7 @@ title: A special project for one of our own
 sub_heading: Rehearsing for a very special wedding
 date: 2019-06-25
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: You can't always get a full choir in the summer
 ---
 ![](/images/20190626_073139.jpg "A collage of photos of a handful of Summerside Choir members rehearsing with a keyboard in a small room")
 

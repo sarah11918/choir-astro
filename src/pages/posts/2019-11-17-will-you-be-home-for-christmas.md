@@ -2,6 +2,7 @@
 title: Will you be Home for Christmas?
 date: 2019-11-17
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: Please join us for one (or both!) of our Christmas concerts this season!
 ---
 ![](/images/concertposterchristmas2019.jpg "I'll Be Home For Christmas concert poster")
 

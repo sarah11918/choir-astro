@@ -4,6 +4,7 @@ title: Happy Valentine's Day!
 sub_heading: A "sweet" social
 date: 2020-02-14
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: Tonight we cut rehearsal a little short and indulged in a few festivities!
 ---
 ![](/images/SSD_7058.JPG "Happy Valentines Day signs and balloons")
 

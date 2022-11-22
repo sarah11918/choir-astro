@@ -3,6 +3,7 @@
 title: November update
 date: 2021-11-01
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: No news is... no news.
 ---
 
 

@@ -2,6 +2,7 @@
 title: Thanks for coming!
 date: 2019-12-11
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: Thanks to all who packed the pews for our final concert of the decade!
 ---
 ![](/images/IMG_0620.jpeg "View from the back of Trinity United Church, close up of a decorated Christmas tree branch in the foreground, and the audience and choir in the background")
 

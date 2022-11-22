@@ -2,6 +2,7 @@
 title: 2019 Spring Concert Dates Announced!
 date: 2019-01-19 
 layout: ../../layouts/BlogPostLayout.astro
+exerpt: We are pleased to announce the dates of our spring concerts.
 ---
 ## Save the dates: May 26 and June 9
 
