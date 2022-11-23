@@ -1,4 +1,5 @@
 ---
+import { Image } from '@astrojs/image/components';
 ---
 <header style="margin-bottom: 0.5rem;">
     <div class="nav-container">
@@ -14,7 +15,7 @@
           <a href="/performances/">Performances</a>
           <a href="/blog/">News</a>
         </div>
-        <a href="/"><img src="/images/scclogo.png" alt="SCC Logo" width="150" /></a>
+        <a href="/"><Image src="/images/scclogo.png" alt="SCC Logo" width="150" height="120" loading="eager"/></a>
       </nav>
     </div>
 </header>
