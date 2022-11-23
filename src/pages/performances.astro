@@ -4,9 +4,12 @@ import { Picture } from '@astrojs/image/components';
 ---
 <style>
     .posters {
-      max-width: 800px;
-      padding-left: 1.5em;
+      display:flex;
+      flex-direction:row;
+      flex-wrap: wrap;
     }
+
+  
 </style>
 <Layout pageTitle="Performances">
     <h1>2022 Performances</h1>
@@ -36,17 +39,17 @@ import { Picture } from '@astrojs/image/components';
     
     <h2>Past Performances</h2>
     <div class="posters">
-    <img src="/images/concertposterchristmas2019.jpg" alt="2019 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2019.jpg" alt="2019 Spring Concert Poster" width="180" />
-    <img src="/images/concertposterchristmas2018.jpg" alt="2018 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2018.jpg" alt="2018 Spring Concert Poster" width="180" />
-    <img src="/images/concertposterchristmas2017.jpg" alt="2017 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2017.jpg" alt="2017 Spring Concert Poster" width="180" />
-    <img src="/images/concertposterchristmas2016.jpg" alt="2016 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2016.jpg" alt="2016 Spring Concert Poster" width="180" />
-    <img src="/images/concertposterchristmas2015.jpg" alt="2015 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2015.jpg" alt="2015 Spring Concert Poster" width="180" />
-    <img src="/images/concertposterchristmas2014.jpg" alt="2014 Christmas Concert Poster" width="180" />
-    <img src="/images/concertposterspring2013.jpg" alt="2013 Spring Concert Poster" width="180" />
+    <Picture src="/images/concertposterchristmas2019.jpg" alt="2019 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2019.jpg" alt="2019 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterchristmas2018.jpg" alt="2018 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2018.jpg" alt="2018 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterchristmas2017.jpg" alt="2017 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2017.jpg" alt="2017 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterchristmas2016.jpg" alt="2016 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2016.jpg" alt="2016 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterchristmas2015.jpg" alt="2015 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="650:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2015.jpg" alt="2015 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterchristmas2014.jpg" alt="2014 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
+    <Picture src="/images/concertposterspring2013.jpg" alt="2013 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="650:1000" sizes="(max-width: 400px) 100vw, 180px" />
     </div>
 </Layout>
