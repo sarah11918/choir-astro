@@ -1,5 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components';
+import { Picture } from '@astrojs/image/components';
 ---
 <header style="margin-bottom: 0.5rem;">
     <div class="nav-container">
@@ -15,7 +15,7 @@ import { Image } from '@astrojs/image/components';
           <a href="/performances/">Performances</a>
           <a href="/blog/">News</a>
         </div>
-        <a href="/"><Image src="/images/scclogo.png" alt="SCC Logo" width="150" height="120" loading="eager"/></a>
+        <a href="/"><Picture src="/images/scclogo.png" widths={[300, 490]} alt="SCC Logo" aspectRatio="15:12" sizes="150px" loading="eager"/></a>
       </nav>
     </div>
 </header>
