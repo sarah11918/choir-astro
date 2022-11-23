@@ -20,10 +20,9 @@ let sortedPosts = myPosts.slice(0,3)
   }
 </style>
 <Layout pageTitle="Home">
-	<!-- <img src="/images/2019choirFUN.jpg" alt="SCC fun pose"> -->
 	<Picture src="/images/2019choirFUN.jpg" widths={[300, 600, 1000, 2400]} aspectRatio="2:1" sizes="100vw" alt="The choir on stage, in a fun pose." />
 	<div class="container">
-		<img class="poster" src="/images/2022.png" alt="Christmas Concert poster: Song for a Winter's Night, Sunday December 18 at 2pm, Trinity United Chuch, Summerside.">
+		<Picture class="poster" src="/images/concertposterchristmas2022.jpg" widths={[300, 500, 773]} aspectRatio="773:1000" sizes="100vw" alt="Christmas Concert poster: Song for a Winter's Night, Sunday December 18 at 2pm, Trinity United Chuch, Summerside."/>
 	<div class="news">
 		<h3>Recent News</h3>
 		{sortedPosts.map((post) => {
