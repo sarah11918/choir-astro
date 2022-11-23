@@ -2,9 +2,9 @@
 title: 'Don''t think of it as "losing a summer" . . . '
 date: 2019-09-02 
 layout: ../../layouts/BlogPostLayout.astro
-exerpt: . . . but "gaining a new term of choir!"
+exerpt: . . . but gaining a new term of choir!
 ---
-![](/images/20190108_204700.jpg "Choir members in rehearsal, seated in chairs going through their music")
+![Choir members in rehearsal, seated in chairs going through their music](/images/20190108_204700.jpg "Choir members in rehearsal, seated in chairs going through their music")
 
 . . . but "gaining a new term of choir!"
 
