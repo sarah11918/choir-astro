@@ -1,9 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Picture } from '@astrojs/image/components';
 ---
 <Layout pageTitle="About">
     <h1>About The Choir</h1>
     <p>The Summerside Community Choir is an open membership, mixed-voice community choir who welcomes new members at the beginning of each term to work towards an end-of-term concert. We perform two Christmas concerts in December and two spring concerts in May or June and may have extra events throughout the term.</p>
     <p>In 1978, Bill Leuty had a dream to start a community choir in Summerside, PEI, Canada.  He was able to make this dream a reality, and in 2018 the 50-plus member Summerside Community Choir celebrated forty years of choral music.</p>
-    <img src="/images/35thAnniversaryCake.jpg" alt="35th Anniversary Cake" />
+    <Picture src="/images/35thAnniversaryCake.jpg" widths={[400, 600, 800]} aspectRatio="8:6" sizes="(max-width: 800px) 100vw, 800px" alt="35th Anniversary Cake, decorated with music notes."/>
 </Layout>
