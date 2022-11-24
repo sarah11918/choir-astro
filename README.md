@@ -1,3 +1,1 @@
-# choir-astro
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-cqknkd)
+This is the Summerside Community Choir website, built in Astro.
