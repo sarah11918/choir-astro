@@ -12,12 +12,6 @@ import { Picture } from '@astrojs/image/components';
   
 </style>
 <Layout pageTitle="Performances">
-    <h1>2022 Performances</h1>
-    <h3>Spring Concerts</h3>
-    <p>(Term cancelled due to Covid-19)</p>
-    <h3>Christmas Concert</h3>
-    <p>Sunday, December 18 at 2:00 p.m.</p>
-    <p>Trinity United Church, Summerside PE (<a href="https://goo.gl/maps/nuzN7oMkWLG2">map</a>)</p>
 
     <div>
       <iframe
@@ -39,6 +33,7 @@ import { Picture } from '@astrojs/image/components';
     
     <h2>Past Performances</h2>
     <div class="posters">
+    <Picture src="/images/concertposterchristmas2022.jpg" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" alt="2022 Christmas Concert poster"/>
     <Picture src="/images/concertposterchristmas2019.jpg" alt="2019 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
     <Picture src="/images/concertposterspring2019.jpg" alt="2019 Spring Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />
     <Picture src="/images/concertposterchristmas2018.jpg" alt="2018 Christmas Concert Poster" widths={[360, 540, 625]} aspectRatio="773:1000" sizes="(max-width: 400px) 100vw, 180px" />

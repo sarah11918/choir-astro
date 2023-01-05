@@ -627,7 +627,7 @@ html {
     flex-direction: column;
   }
   
-  @media (min-width: 480px){
+  @media (min-width: 470px){
     .info{
       flex-direction: row;
       margin-top: 1.5em;
