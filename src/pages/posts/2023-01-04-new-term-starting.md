@@ -1,5 +1,5 @@
 ---
-title: New term starting!
+title: New term starting January 10 2023!
 date: 2023-01-04
 layout: ../../layouts/BlogPostLayout.astro
 exerpt: Accepting new members in January!
